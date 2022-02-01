@@ -1,3 +1,7 @@
+body {
+  background-color: salmon;
+}
+
 .video-frame {
   margin: 3em auto;
   width: 50%;
