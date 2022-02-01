@@ -1,0 +1,10 @@
+.video-frame {
+  margin: 3em auto;
+  width: 50%;
+}
+
+video {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
