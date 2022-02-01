@@ -2,15 +2,33 @@ body {
   background-color: salmon;
   height: 100vh;
   margin: 0;
+  font-size: 30px;
+  line-height: 0;
 }
 
+svg {
+  font-family: 'Oswald';
+  font-weight: bold;
+  font-size: 12em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .video-frame {
-  margin: 3em auto;
-  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
 }
 
 video {
-  height: 500px;
+  height: auto;
   width: 100%;
   margin: 0 auto;
+}
+
+svg rect {
+  fill: white;
+  mask: url(#mask);
 }
