@@ -1,5 +1,7 @@
 body {
   background-color: salmon;
+  height: 100vh;
+  margin: 0;
 }
 
 .video-frame {
